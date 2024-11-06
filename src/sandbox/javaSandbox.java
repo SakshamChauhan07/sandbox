@@ -18,9 +18,11 @@ class GFG{
 		
        JFrame frame =  new JFrame("Swing");
        
-       frame.setSize(200,200);
+       frame.setSize(800,600);
+       
        
        frame.setVisible(true);
+       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
 }
