@@ -20,5 +20,9 @@ def getAnswer(answerNumber):
         return 'Very doubtful'
     
 r = random.randint(1,9)
-fortune = getAnswer(r)
-print(fortune)
+
+# fortune = getAnswer(r)
+# print(fortune)
+
+# Or the other way would be 
+print(getAnswer(r))
